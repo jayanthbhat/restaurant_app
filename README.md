@@ -207,19 +207,19 @@ Response:
 
 7. Search option - Food category or food item details is obtained on search.
 
-http://127.0.0.1:8000/api/list-fooditems-categories/?qs=gobi
+http://127.0.0.1:8000/api/list-fooditems-categories/?qs=rasa
 
 [
     {
-        "id": 5,
+        "id": 3,
         "category": {
-            "id": 2,
-            "name": "Chinese"
+            "id": 1,
+            "name": "Indian Cuisine"
         },
         "attributes": {
-            "name": "Spicy"
+            "name": "Tangy"
         },
-        "name": "Gobi Manchurian",
-        "price": 30
+        "name": "Rasam",
+        "price": 20
     }
 ]
